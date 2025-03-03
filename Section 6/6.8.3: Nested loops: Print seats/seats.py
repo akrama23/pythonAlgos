@@ -4,7 +4,7 @@ num_cols = int(input())
 # Note 1: You will need to declare more variables
 # Note 2: Place end=' ' at the end of your print statement to separate seats by spaces
 
-''' Your solution goes here '''
+
 # for loop in nums_row starting at 1 not 0
 for row in range(1, num_rows + 1):  
     for col in range(num_cols):
