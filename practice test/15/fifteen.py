@@ -4,9 +4,12 @@
 #solution outputs the human equivalent age for a pig (i.e. "8 is 40 in human years")
 import pigAge
 
+# Taking integer input
 pig_age = int(input())
 
-converted = pigAge.pigAge_converter(pig_age)
+# Converting pig age to human years using the given function
+human_age = pigAge.pigAge_converter(pig_age)
 
-print(f'{pig_age} is {converted} in human years')
+# Printing the result in the required format
+print(f"{pig_age} is {human_age} in human years")
 
